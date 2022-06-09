@@ -1,4 +1,4 @@
-import 'package:carghai_website/screens/home.dart';
+import 'package:carghai_website/screens/tabbarhome.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,9 +13,16 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "Carghai's Website",
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.grey,
         backgroundColor: Colors.black,
         scaffoldBackgroundColor: Colors.black,
+        brightness: Brightness.dark,
+        snackBarTheme: const SnackBarThemeData(
+          backgroundColor: Colors.black,
+          contentTextStyle: TextStyle(
+            color: Colors.white,
+          ),
+        ),
       ),
       home:  MyHomePage(),
     );

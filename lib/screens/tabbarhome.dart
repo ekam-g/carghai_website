@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'hometab.dart';
+
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key}) : super(key: key);
 
@@ -8,8 +10,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 /// AnimationControllers can be created with `vsync: this` because of TickerProviderStateMixin.
-class _MyHomePage extends State<MyHomePage>
-    with TickerProviderStateMixin {
+class _MyHomePage extends State<MyHomePage> with TickerProviderStateMixin {
   late TabController _tabController;
 
   @override
@@ -40,14 +41,12 @@ class _MyHomePage extends State<MyHomePage>
       ),
       body: TabBarView(
         controller: _tabController,
-        children: const <Widget>[
-          Center(
-            child: Text("It's cloudy here"),
+        children:  <Widget>[
+          tab1Home(),
+          const Center(
+            child: Text("It's rainy here",style: TextStyle(),),
           ),
-          Center(
-            child: Text("It's rainy here"),
-          ),
-          Center(
+          const Center(
             child: Text("It's sunny here"),
           ),
         ],
