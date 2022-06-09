@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.black,
         scaffoldBackgroundColor: Colors.black,
       ),
-      home: const MyHomePage(title: "Carghai's Website"),
+      home:  MyHomePage(),
     );
   }
 }
