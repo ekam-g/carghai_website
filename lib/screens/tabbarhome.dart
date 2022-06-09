@@ -1,3 +1,5 @@
+import 'package:carghai_website/screens/jobtab.dart';
+import 'package:carghai_website/screens/socialsTab.dart';
 import 'package:flutter/material.dart';
 
 import 'hometab.dart';
@@ -43,14 +45,8 @@ class _MyHomePage extends State<MyHomePage> with TickerProviderStateMixin {
         controller: _tabController,
         children: <Widget>[
           tab1Home(),
-          const Center(
-            child: Text(
-              "Jobs and achievements here",
-            ),
-          ),
-          const Center(
-            child: Text("Socials Go here"),
-          ),
+          tab2job(),
+          tab3social(),
         ],
       ),
     );
