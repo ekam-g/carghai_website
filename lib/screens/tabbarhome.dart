@@ -41,13 +41,15 @@ class _MyHomePage extends State<MyHomePage> with TickerProviderStateMixin {
       ),
       body: TabBarView(
         controller: _tabController,
-        children:  <Widget>[
+        children: <Widget>[
           tab1Home(),
           const Center(
-            child: Text("It's rainy here",style: TextStyle(),),
+            child: Text(
+              "Jobs and achievements here",
+            ),
           ),
           const Center(
-            child: Text("It's sunny here"),
+            child: Text("Socials Go here"),
           ),
         ],
       ),
