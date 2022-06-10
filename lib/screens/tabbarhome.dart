@@ -23,17 +23,21 @@ class _MyHomePage extends State<MyHomePage> with TickerProviderStateMixin {
 
   @override
   Widget build(BuildContext context) {
+    final MouseCursor? mouseCursor;
     return Scaffold(
       appBar: AppBar(
         title: const Text('Carghai\'s Website'),
         bottom: TabBar(
           controller: _tabController,
-          tabs: const <Widget>[
+          tabs:  const <Widget>[
             Tab(
               icon: Icon(Icons.home),
+              key: Key('home'),
             ),
             Tab(
               icon: Icon(Icons.work_outline_rounded),
+              key: Key('home'),
+
             ),
             Tab(
               icon: Icon(Icons.wifi),
