@@ -48,8 +48,8 @@ class _MyHomePage extends State<MyHomePage> with TickerProviderStateMixin {
         controller: _tabController,
         children: <Widget>[
           tab1Home(),
-          tab2job(),
-          tab3social(),
+          const tab2job(),
+          const tab3social(),
         ],
       ),
     );

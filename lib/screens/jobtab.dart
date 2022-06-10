@@ -1,9 +1,11 @@
+// ignore_for_file: camel_case_types, library_private_types_in_public_api
+
 import 'package:flutter/material.dart';
 
 class tab2job extends StatefulWidget {
 
 
-  tab2job({Key? key,})
+  const tab2job({Key? key,})
       : super(key: key);
 
   @override
