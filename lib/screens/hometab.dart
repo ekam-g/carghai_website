@@ -13,9 +13,10 @@ class tab1Home extends StatefulWidget {
 class _tab1Home extends State<tab1Home> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        body: Center(
-            child: Column(
+    return SingleChildScrollView(
+        child: Scaffold(
+            body: Center(
+                child: Column(
       children: [
         const Spacer(
           flex: 1,
@@ -40,7 +41,7 @@ class _tab1Home extends State<tab1Home> {
             const Expanded(
               flex: 8,
               child: SizedBox(
-                height: 200,
+                height: 150,
                 child: AutoSizeText(
                   "I have built in flutter Cougar General for my school. So what does it do? It is an app to many things. The app has 2 main features. Stop it and cougar help."
                   "Stop it is an app to stop passive types of bullying. It has a detect mode that listens to your voice and if you say something bad it will notify you. It has a learning ai with firestore to adapt and learn."
@@ -53,13 +54,13 @@ class _tab1Home extends State<tab1Home> {
             ),
             const Spacer(flex: 2),
             Expanded(
-              flex: 8,
+              flex: 5,
               child: SizedBox(
-                height: 200,
+                height: 150,
                 child: SingleChildScrollView(
                   child: Column(
                     children: const [
-                      Text("cool", style: TextStyle(fontSize: 299)),
+                      Image(image: AssetImage('IMG_2119.PNG')),
                     ],
                   ),
                 ),
@@ -76,6 +77,6 @@ class _tab1Home extends State<tab1Home> {
           height: 2,
         ),
       ],
-    )));
+    ))));
   }
 }
