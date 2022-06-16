@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class tab1Home extends StatefulWidget {
-  tab1Home({
+  const tab1Home({
     Key? key,
   }) : super(key: key);
 
@@ -15,11 +15,11 @@ class _tab1Home extends State<tab1Home> {
     return Scaffold(
         body: Center(
             child: Column(
-      children: const [
-        Spacer(
+      children: [
+        const Spacer(
           flex: 1,
         ),
-        Padding(
+        const Padding(
           padding: EdgeInsets.symmetric(horizontal: 20, vertical: 5),
           child: Text(
             'Hello, I am Carghai and I am a software developer who is mainly codes in python and dart.',
@@ -29,11 +29,35 @@ class _tab1Home extends State<tab1Home> {
             ),
           ),
         ),
-        Spacer(
+        const Spacer(),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            const Spacer(),
+            const Text(
+              "hello",
+              style: TextStyle(fontSize: 20),
+            ),
+            const Spacer(flex: 2),
+            SizedBox(
+              height: 200,
+              width: 200,
+              child: SingleChildScrollView(
+                child: Column(
+                  children: const [
+                    Text("cool", style: TextStyle(fontSize: 299)),
+                  ],
+                ),
+              ),
+            ),
+            const Spacer(),
+          ],
+        ),
+        const Spacer(
           flex: 10,
         ),
-        Text("Swipe right to continue"),
-        SizedBox(
+        const Text("Swipe right to continue"),
+        const SizedBox(
           height: 2,
         ),
       ],
