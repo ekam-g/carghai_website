@@ -13,10 +13,9 @@ class tab1Home extends StatefulWidget {
 class _tab1Home extends State<tab1Home> {
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-        child: Scaffold(
-            body: Center(
-                child: Column(
+    return Scaffold(
+        body: Center(
+            child: Column(
       children: [
         const Spacer(
           flex: 1,
@@ -39,7 +38,7 @@ class _tab1Home extends State<tab1Home> {
           children: [
             const Spacer(),
             const Expanded(
-              flex: 8,
+              flex: 10,
               child: SizedBox(
                 height: 150,
                 child: AutoSizeText(
@@ -52,15 +51,19 @@ class _tab1Home extends State<tab1Home> {
                 ),
               ),
             ),
-            const Spacer(flex: 2),
+            const Spacer(flex: 1),
             Expanded(
-              flex: 5,
+              flex: 8,
               child: SizedBox(
-                height: 150,
+                height: 200,
                 child: SingleChildScrollView(
                   child: Column(
                     children: const [
-                      Image(image: AssetImage('IMG_2119.PNG')),
+                      Image(image: AssetImage('assets/Screen Shot 2022-06-16 at 18.00.15.png')),
+                      Image(image: AssetImage('assets/Screen Shot 2022-06-16 at 18.00.42.png')),
+                      Image(image: AssetImage('assets/Screen Shot 2022-06-16 at 18.00.50.png')),
+                      Image(image: AssetImage('assets/Screen Shot 2022-06-16 at 18.00.56.png')),
+                      
                     ],
                   ),
                 ),
@@ -77,6 +80,6 @@ class _tab1Home extends State<tab1Home> {
           height: 2,
         ),
       ],
-    ))));
+    )));
   }
 }

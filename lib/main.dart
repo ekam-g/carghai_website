@@ -13,10 +13,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "Carghai's Website",
       theme: ThemeData(
-        primarySwatch: Colors.grey,
-        backgroundColor: Colors.black,
-        scaffoldBackgroundColor: Colors.black,
-        brightness: Brightness.dark,
+        primarySwatch: Colors.brown,
+        backgroundColor: Colors.white,
+        scaffoldBackgroundColor: Colors.white,
         snackBarTheme: const SnackBarThemeData(
           backgroundColor: Colors.black,
           contentTextStyle: TextStyle(
