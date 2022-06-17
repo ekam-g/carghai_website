@@ -1,4 +1,5 @@
 import 'package:carghai_website/screens/jobtab.dart';
+import 'package:carghai_website/screens/projects.dart';
 import 'package:carghai_website/screens/socialsTab.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +19,7 @@ class _MyHomePage extends State<MyHomePage> with TickerProviderStateMixin {
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(length: 3, vsync: this);
+    _tabController = TabController(length: 4, vsync: this);
   }
 
   @override
@@ -36,6 +37,10 @@ class _MyHomePage extends State<MyHomePage> with TickerProviderStateMixin {
                 key: Key('home'),
               ),
               Tab(
+                icon: Icon(Icons.code),
+                key: Key('Projects'),
+              ),
+              Tab(
                 icon: Icon(Icons.work_outline_rounded),
                 key: Key('home'),
               ),
@@ -50,6 +55,7 @@ class _MyHomePage extends State<MyHomePage> with TickerProviderStateMixin {
         controller: _tabController,
         children: const <Widget>[
           tab1Home(),
+          projectsTab(),
           tab2job(),
           tab3social(),
         ],
