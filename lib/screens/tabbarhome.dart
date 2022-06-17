@@ -25,9 +25,8 @@ class _MyHomePage extends State<MyHomePage> with TickerProviderStateMixin {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: PreferredSize(
-        preferredSize: Size.fromHeight(100.0),
+        preferredSize: Size.fromHeight(50.0),
         child: AppBar(
-          title: Text('Home'),
           centerTitle: true,
           bottom: TabBar(
             controller: _tabController,
@@ -49,10 +48,10 @@ class _MyHomePage extends State<MyHomePage> with TickerProviderStateMixin {
       ),
       body: TabBarView(
         controller: _tabController,
-        children: <Widget>[
+        children: const <Widget>[
           tab1Home(),
-          const tab2job(),
-          const tab3social(),
+          tab2job(),
+          tab3social(),
         ],
       ),
     );

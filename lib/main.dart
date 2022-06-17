@@ -11,19 +11,20 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Carghai's Website",
+      title: "Ekam's Website",
       theme: ThemeData(
-        primarySwatch: Colors.brown,
-        backgroundColor: Colors.white,
-        scaffoldBackgroundColor: Colors.white,
+        primarySwatch: Colors.grey,
+        backgroundColor: Colors.black,
+        scaffoldBackgroundColor: Colors.black,
+        brightness: Brightness.dark,
         snackBarTheme: const SnackBarThemeData(
-          backgroundColor: Colors.black,
+          backgroundColor: Colors.white,
           contentTextStyle: TextStyle(
             color: Colors.white,
           ),
         ),
       ),
-      home:  MyHomePage(),
+      home:  const MyHomePage(),
     );
   }
 }
