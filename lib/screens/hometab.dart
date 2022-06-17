@@ -21,7 +21,7 @@ class _tab1Home extends State<tab1Home> {
           flex: 1,
         ),
         const Padding(
-          padding: EdgeInsets.symmetric(horizontal: 100, vertical: 5),
+          padding: EdgeInsets.symmetric(horizontal: 100, vertical: 0),
           child: AutoSizeText(
             'E k a m  G h a i',
             textAlign: TextAlign.start,
@@ -30,13 +30,16 @@ class _tab1Home extends State<tab1Home> {
           ),
         ),
         const Padding(
-          padding: EdgeInsets.symmetric(horizontal: 100, vertical: 10),
+          padding: EdgeInsets.symmetric(horizontal: 100, vertical: 0),
           child: AutoSizeText(
             'A Full-Stack Dart and Python Developer',
             textAlign: TextAlign.start,
             maxLines: 1,
             style: TextStyle(fontSize: 20, fontFamily: 'Lato'),
           ),
+        ),
+        const Spacer(
+          flex: 1,
         ),
         Expanded(
           flex: 10,
