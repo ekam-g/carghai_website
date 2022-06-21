@@ -15,17 +15,9 @@ class tab2job extends StatefulWidget {
 }
 
 class _tab2job extends State<tab2job> {
-  String test = 'test';
 
   @override
   Widget build(BuildContext context) {
-    changeState() {
-      test = "cool";
-      setState(() {
-      });
-      p(test);
-    }
-
     return Scaffold(
         body: Center(
             child: Column(
@@ -33,20 +25,13 @@ class _tab2job extends State<tab2job> {
         Spacer(),
         SizedButtion(
           onPressed: () {
-            changeState();
+            null;
           },
           width: 200,
           height: 50,
           fontSize: 10,
-          text: test.toString(),
+          text: "test",
         ),
-        ElevatedButton(
-            onPressed: () {
-              changeState();
-              setState(() {});
-            },
-            child: Text(test.toString())),
-        Text(test.toString()),
         const Text(
           'jobs and achievements here',
           style: TextStyle(
