@@ -2,10 +2,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class SizedButtion extends StatelessWidget {
-  SizedButtion({required this.onPressed,
-    required this.text,
-    required this.width,
-    required this.height, required this.fontSize});
+  SizedButtion(
+      {required this.onPressed,
+      required this.text,
+      required this.width,
+      required this.height,
+      required this.fontSize});
 
   final GestureTapCallback onPressed;
   final String text;
@@ -20,13 +22,23 @@ class SizedButtion extends StatelessWidget {
       height: height,
       child: ElevatedButton(
         onPressed: onPressed,
+        style: ElevatedButton.styleFrom(
+          elevation: 20,
+          primary: Colors.white,
+          onPrimary: Colors.black,
+          enableFeedback: true,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(18.0),
+            side: const BorderSide(color: Colors.black),
+          ),
+        ),
         child: Text(
           text,
           style: TextStyle(
             fontSize: fontSize,
             fontWeight: FontWeight.bold,
             fontFamily: 'Lato',
-            color: Colors.white,
+            color: Colors.black,
           ),
         ),
       ),
@@ -35,9 +47,11 @@ class SizedButtion extends StatelessWidget {
 }
 
 class ExpandedButtion extends StatelessWidget {
-  ExpandedButtion({required this.onPressed,
-    required this.text,
-    required this.flex, required this.fontSize});
+  ExpandedButtion(
+      {required this.onPressed,
+      required this.text,
+      required this.flex,
+      required this.fontSize});
 
   final GestureTapCallback onPressed;
   final String text;
@@ -48,21 +62,28 @@ class ExpandedButtion extends StatelessWidget {
   Widget build(BuildContext context) {
     return Expanded(
       flex: flex,
-      child: ElevatedButton(
+      child:  ElevatedButton(
         onPressed: onPressed,
+        style: ElevatedButton.styleFrom(
+          elevation: 20,
+          primary: Colors.white,
+          onPrimary: Colors.black,
+          enableFeedback: true,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(18.0),
+            side: const BorderSide(color: Colors.black),
+          ),
+        ),
         child: Text(
           text,
           style: TextStyle(
             fontSize: fontSize,
             fontWeight: FontWeight.bold,
             fontFamily: 'Lato',
-            color: Colors.white,
+            color: Colors.black,
           ),
         ),
       ),
     );
   }
 }
-
-
-
