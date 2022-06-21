@@ -26,9 +26,43 @@ class SizedButtion extends StatelessWidget {
             fontSize: fontSize,
             fontWeight: FontWeight.bold,
             fontFamily: 'Lato',
+            color: Colors.white,
           ),
         ),
       ),
     );
   }
 }
+
+class ExpandedButtion extends StatelessWidget {
+  ExpandedButtion({required this.onPressed,
+    required this.text,
+    required this.flex, required this.fontSize});
+
+  final GestureTapCallback onPressed;
+  final String text;
+  final int flex;
+  final double fontSize;
+
+  @override
+  Widget build(BuildContext context) {
+    return Expanded(
+      flex: flex,
+      child: ElevatedButton(
+        onPressed: onPressed,
+        child: Text(
+          text,
+          style: TextStyle(
+            fontSize: fontSize,
+            fontWeight: FontWeight.bold,
+            fontFamily: 'Lato',
+            color: Colors.white,
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+
+
