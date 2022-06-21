@@ -13,7 +13,7 @@ class tab1Home extends StatefulWidget {
 class _tab1Home extends State<tab1Home> {
   @override
   Widget build(BuildContext context) {
-    var screenSize = MediaQuery.of(context).size.width;
+    double screenSize = MediaQuery.of(context).size.width;
 
     ///BIG UI
     if (screenSize > 600) {
@@ -39,12 +39,13 @@ class _tab1Home extends State<tab1Home> {
           const Spacer(
             flex: 1,
           ),
-          Expanded(
-            flex: 10,
+          SizedBox(
+            width: 450,
+            height: 450,
             child: Image.asset('assets/flutter cool.jpg'),
           ),
           const Spacer(
-            flex: 2,
+            flex: 1,
           ),
           const AutoSizeText(
             'I build things with a purpose.\n All of my projects are build to solve a problem or a problem that I have in mind.\nI love to learn new things and I love to help people and my projects reflect that.',
@@ -53,7 +54,7 @@ class _tab1Home extends State<tab1Home> {
             maxLines: 3,
           ),
           const Spacer(
-            flex: 4,
+            flex: 8,
           ),
         ],
       )));

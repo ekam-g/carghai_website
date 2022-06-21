@@ -18,17 +18,13 @@ class _projectsTab extends State<projectsTab> {
             child: Column(
       children: [
         const Spacer(),
-        const Expanded(
-          flex: 6,
-          child: FittedBox(
-            fit: BoxFit.contain,
-            child: Text(
+         Text(
               'P r o j e c t s',
               textAlign: TextAlign.start,
               style: TextStyle(fontSize: 150, fontFamily: 'Lato'),
             ),
-          ),
-        ),
+
+
         const Padding(
           padding: EdgeInsets.symmetric(horizontal: 100, vertical: 10),
           child: Divider(
