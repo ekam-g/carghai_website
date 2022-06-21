@@ -35,7 +35,7 @@ class _projectsTab extends State<projectsTab> {
           Expanded(
             flex: 5,
             child: Padding(
-              padding: EdgeInsets.symmetric(horizontal: 20),
+              padding: const EdgeInsets.symmetric(horizontal: 20),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
@@ -191,7 +191,7 @@ class _projectsTab extends State<projectsTab> {
                     child: Text(
                       'Cougar Scouting App is an app to gather and find the best team that we can team up with. It is a mobile app that is built with Flutter and Firebase. It is a full-stack app that is built with Dart and Python',
                       textAlign: TextAlign.center,
-                      style: TextStyle(fontSize: 12, fontFamily: 'Lato'),
+                      style: TextStyle(fontSize: 10, fontFamily: 'Lato'),
                     ),
                   ),
                   const Spacer(
@@ -233,7 +233,7 @@ class _projectsTab extends State<projectsTab> {
                   child: Text(
                     'Cougar General is an app made to house all of 1403 app projects to help the team out. It has two big features, Cougar help and Stop It. Cougar help is an app that helps with events and team origination in poor wifi. Stop it is anti bullying app that listens for passive type of harm and reports it. It has learning AI to learn to new type of passive harm.',
                     textAlign: TextAlign.center,
-                    style: TextStyle(fontSize: 10, fontFamily: 'Lato'),
+                    style: TextStyle(fontSize: 8, fontFamily: 'Lato'),
                   ),
                 ),
                 const Spacer(
@@ -274,7 +274,7 @@ class _projectsTab extends State<projectsTab> {
                   child: Text(
                     'NeuraCode is a teaching business where we expand our knowledge and teach kids to become future programmers. It is complete up and is a full running company.',
                     textAlign: TextAlign.center,
-                    style: TextStyle(fontSize: 14, fontFamily: 'Lato'),
+                    style: TextStyle(fontSize: 12, fontFamily: 'Lato'),
                   ),
                 ),
                 const Spacer(

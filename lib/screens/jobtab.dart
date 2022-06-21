@@ -20,9 +20,9 @@ class _tab2job extends State<tab2job> {
     return Scaffold(
         body: Center(
             child: Column(
-      children: [
+      children: const [
         Spacer(),
-        const Text(
+        Text(
           'jobs and achievements here',
           style: TextStyle(
             fontSize: 20,
