@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 
 import '../widgets/buttion.dart';
+import '../widgets/functions.dart';
 
 class tab2job extends StatefulWidget {
   const tab2job({
@@ -14,9 +15,17 @@ class tab2job extends StatefulWidget {
 }
 
 class _tab2job extends State<tab2job> {
+  String test = 'test';
+
   @override
   Widget build(BuildContext context) {
-    String test = 'test';
+    changeState() {
+      test = "cool";
+      setState(() {
+      });
+      p(test);
+    }
+
     return Scaffold(
         body: Center(
             child: Column(
@@ -24,24 +33,20 @@ class _tab2job extends State<tab2job> {
         Spacer(),
         SizedButtion(
           onPressed: () {
-            setState(() {
-              test == 'cool';
-            });
+            changeState();
           },
           width: 200,
           height: 50,
           fontSize: 10,
-          text: test,
+          text: test.toString(),
         ),
         ElevatedButton(
             onPressed: () {
-              setState(() {
-                test == 'cool';
-              });
+              changeState();
               setState(() {});
             },
-            child: Text(test)),
-        Text(test),
+            child: Text(test.toString())),
+        Text(test.toString()),
         const Text(
           'jobs and achievements here',
           style: TextStyle(
