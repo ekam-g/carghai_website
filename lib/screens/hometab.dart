@@ -74,16 +74,16 @@ class _tab1Home extends State<tab1Home> {
             style: TextStyle(fontSize: 50, fontFamily: 'Lato'),
           ),
           const Text(
-            'A full stack dart and python developer small',
+            'A full stack dart and python developer',
             textAlign: TextAlign.start,
-            style: TextStyle(fontSize: 10, fontFamily: 'Lato'),
+            style: TextStyle(fontSize: 12, fontFamily: 'Lato'),
           ),
           const Spacer(
             flex: 1,
           ),
           SizedBox(
-            width: 220,
-            height: 220,
+            width: 250,
+            height: 250,
             child: Image.asset('assets/flutter cool.jpg'),
           ),
           const Spacer(
@@ -95,7 +95,7 @@ class _tab1Home extends State<tab1Home> {
             style: TextStyle(fontSize: 8, fontFamily: 'Lato'),
           ),
           const Spacer(
-            flex: 4,
+            flex: 8,
           ),
         ],
       )));

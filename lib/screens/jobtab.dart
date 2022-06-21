@@ -15,7 +15,6 @@ class tab2job extends StatefulWidget {
 }
 
 class _tab2job extends State<tab2job> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,15 +22,6 @@ class _tab2job extends State<tab2job> {
             child: Column(
       children: [
         Spacer(),
-        SizedButtion(
-          onPressed: () {
-            null;
-          },
-          width: 200,
-          height: 50,
-          fontSize: 10,
-          text: "test",
-        ),
         const Text(
           'jobs and achievements here',
           style: TextStyle(
