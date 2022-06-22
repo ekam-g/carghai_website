@@ -64,6 +64,9 @@ flutter:
     - assets/1403logo.png
     - assets/CougarGenral.png
     - assets/wFqzEqYRqe.webp
+    - assets/Unknown-3.jpg
+    - assets/Unknown-2.jpg
+    - assets/Unknown.jpg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 

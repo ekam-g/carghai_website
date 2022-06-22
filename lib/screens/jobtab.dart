@@ -1,11 +1,8 @@
 // ignore_for_file: camel_case_types, library_private_types_in_public_api
 
 import 'package:carghai_website/widgets/CoolText.dart';
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
-import '../widgets/buttion.dart';
-import '../widgets/functions.dart';
 
 class tab2job extends StatefulWidget {
   const tab2job({
