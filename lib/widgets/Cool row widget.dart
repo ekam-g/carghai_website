@@ -112,7 +112,7 @@ class rowcool2 extends StatelessWidget {
                 height: height,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
-                  color: Colors.white,
+                  color: Colors.black,
                   image: DecorationImage(
                     image: AssetImage(Image),
                   ),

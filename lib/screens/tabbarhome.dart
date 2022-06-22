@@ -26,7 +26,7 @@ class _MyHomePage extends State<MyHomePage> with TickerProviderStateMixin {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: PreferredSize(
-        preferredSize: Size.fromHeight(50.0),
+        preferredSize: const Size.fromHeight(50.0),
         child: AppBar(
           centerTitle: true,
           bottom: TabBar(

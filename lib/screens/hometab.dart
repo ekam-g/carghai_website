@@ -71,12 +71,12 @@ class _tab1Home extends State<tab1Home> {
           const Text(
             'E k a m  G h a i',
             textAlign: TextAlign.start,
-            style: TextStyle(fontSize: 50, fontFamily: 'Poppins'),
+            style: TextStyle(fontSize: 35, fontFamily: 'Poppins'),
           ),
           const Text(
             'A full stack dart and python developer',
             textAlign: TextAlign.start,
-            style: TextStyle(fontSize: 12, fontFamily: 'Poppins'),
+            style: TextStyle(fontSize: 10, fontFamily: 'Poppins'),
           ),
           const Spacer(
             flex: 1,
@@ -89,14 +89,17 @@ class _tab1Home extends State<tab1Home> {
           const Spacer(
             flex: 2,
           ),
-          const Text(
-            'I build things with a purpose.\n All of my projects are build to solve a problem or a problem that I have in mind.\nI love to learn new things and I love to help people and my projects reflect that.',
-            textAlign: TextAlign.center,
-            style: TextStyle(fontSize: 8, fontFamily: 'Poppins'),
+          const Padding(
+            padding: EdgeInsets.all(20),
+            child: Text(
+              'I build things with a purpose. All of my projects are build to solve a problem or a problem that I have in mind. I love to learn new things and I love to help people and my projects reflect that.',
+              textAlign: TextAlign.center,
+              style: TextStyle(fontSize: 8, fontFamily: 'Poppins'),
+            ),
           ),
-          const Spacer(
-            flex: 8,
-          ),
+            const Spacer(
+              flex: 8,
+            ),
         ],
       )));
     }
