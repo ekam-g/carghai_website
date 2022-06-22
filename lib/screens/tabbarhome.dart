@@ -37,15 +37,15 @@ class _MyHomePage extends State<MyHomePage> with TickerProviderStateMixin {
                 key: Key('home'),
               ),
               Tab(
-                icon: Icon(Icons.code),
+                icon: Icon(Icons.science_outlined),
                 key: Key('Projects'),
               ),
               Tab(
-                icon: Icon(Icons.work_outline_rounded),
+                icon: Icon(Icons.school_outlined),
                 key: Key('home'),
               ),
               Tab(
-                icon: Icon(Icons.wifi),
+                icon: Icon(Icons.satellite_alt_outlined),
               ),
             ],
           ),
