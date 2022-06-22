@@ -27,13 +27,13 @@ class _tab1Home extends State<tab1Home> {
           const AutoSizeText(
             'E k a m  G h a i',
             textAlign: TextAlign.start,
-            style: TextStyle(fontSize: 100, fontFamily: 'Lato'),
+            style: TextStyle(fontSize: 100, fontFamily: 'Poppins'),
             maxLines: 1,
           ),
           const AutoSizeText(
             'A full stack dart and python developer',
             textAlign: TextAlign.start,
-            style: TextStyle(fontSize: 20, fontFamily: 'Lato'),
+            style: TextStyle(fontSize: 20, fontFamily: 'Poppins'),
             maxLines: 1,
           ),
           const Spacer(
@@ -50,7 +50,7 @@ class _tab1Home extends State<tab1Home> {
           const AutoSizeText(
             'I build things with a purpose.\n All of my projects are build to solve a problem or a problem that I have in mind.\nI love to learn new things and I love to help people and my projects reflect that.',
             textAlign: TextAlign.center,
-            style: TextStyle(fontSize: 15, fontFamily: 'Lato'),
+            style: TextStyle(fontSize: 15, fontFamily: 'Poppins'),
             maxLines: 3,
           ),
           const Spacer(
@@ -71,12 +71,12 @@ class _tab1Home extends State<tab1Home> {
           const Text(
             'E k a m  G h a i',
             textAlign: TextAlign.start,
-            style: TextStyle(fontSize: 50, fontFamily: 'Lato'),
+            style: TextStyle(fontSize: 50, fontFamily: 'Poppins'),
           ),
           const Text(
             'A full stack dart and python developer',
             textAlign: TextAlign.start,
-            style: TextStyle(fontSize: 12, fontFamily: 'Lato'),
+            style: TextStyle(fontSize: 12, fontFamily: 'Poppins'),
           ),
           const Spacer(
             flex: 1,
@@ -92,7 +92,7 @@ class _tab1Home extends State<tab1Home> {
           const Text(
             'I build things with a purpose.\n All of my projects are build to solve a problem or a problem that I have in mind.\nI love to learn new things and I love to help people and my projects reflect that.',
             textAlign: TextAlign.center,
-            style: TextStyle(fontSize: 8, fontFamily: 'Lato'),
+            style: TextStyle(fontSize: 8, fontFamily: 'Poppins'),
           ),
           const Spacer(
             flex: 8,

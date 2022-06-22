@@ -37,7 +37,7 @@ class rowcool extends StatelessWidget {
                 child: Text(
                   text,
                   textAlign: TextAlign.center,
-                  style: TextStyle(fontSize: fontSize, fontFamily: 'Lato'),
+                  style: TextStyle(fontSize: fontSize, fontFamily: 'Poppins'),
                 ),
               ),
             ),
@@ -101,7 +101,7 @@ class rowcool2 extends StatelessWidget {
                 child: Text(
                   text,
                   textAlign: TextAlign.center,
-                  style: TextStyle(fontSize: fontSize, fontFamily: 'Lato'),
+                  style: TextStyle(fontSize: fontSize, fontFamily: 'Poppins'),
                 ),
               ),
             ),

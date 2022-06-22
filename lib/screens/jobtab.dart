@@ -21,7 +21,7 @@ class _tab2job extends State<tab2job> {
       //Big ui
       return SingleChildScrollView(
           child: SizedBox(
-              height: 2800,
+              height: 3400,
               child: Scaffold(
                   body: Center(
                       child: Column(
