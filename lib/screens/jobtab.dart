@@ -26,6 +26,8 @@ class _tab2job extends State<tab2job> {
                       child: Column(
                 children: [
                   const SizedBox(height: 20),
+                  coolText(text: "CV", fontSize: 80),
+                  const SizedBox(height: 20),
                   coolText(text: "Employment", fontSize: 60),
                   const SizedBox(
                     width: 500,
@@ -142,6 +144,8 @@ class _tab2job extends State<tab2job> {
                   body: Center(
                       child: Column(
                 children: [
+                  const SizedBox(height: 20),
+                  coolText(text: "CV", fontSize: 50),
                   const SizedBox(height: 20),
                   coolText(text: "Employment", fontSize: 30),
                   const Padding(
