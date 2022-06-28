@@ -96,7 +96,7 @@ class _projectsTab extends State<projectsTab> {
             Image: "assets/1403logo.png",
             width: 130,
             sizedboxWidth: 120,
-            fontSize: 8,
+            fontSize: 7,
             height: 125,
           ),
           const Spacer(
@@ -107,7 +107,7 @@ class _projectsTab extends State<projectsTab> {
             Image: "assets/CougarGenral.png",
             width: 130,
             sizedboxWidth: 125,
-            fontSize: 6,
+            fontSize: 5,
             height: 125,
           ),
           const Spacer(
@@ -119,7 +119,7 @@ class _projectsTab extends State<projectsTab> {
             Image: "assets/wFqzEqYRqe.webp",
             width: 130,
             sizedboxWidth: 125,
-            fontSize: 10,
+            fontSize: 8,
             height: 125,
           ),
           const Spacer(

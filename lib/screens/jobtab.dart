@@ -20,7 +20,7 @@ class _tab2job extends State<tab2job> {
       //Big ui
       return SingleChildScrollView(
           child: SizedBox(
-              height: 3400,
+              height: 4000,
               child: Scaffold(
                   body: Center(
                       child: Column(
@@ -74,6 +74,19 @@ class _tab2job extends State<tab2job> {
                       thickness: 2,
                     ),
                   ),
+                  const SizedBox(
+                    height: 40,
+                  ),
+                  coolText(text: "STEMist Hacks", fontSize: 40),
+                  const SizedBox(
+                    height: 20,
+                  ),
+                  coolText(
+                      text: "9/150th\n\n "
+                          "Tech used: Flutter/Firebase/Learning Ai\n\n"
+                          "Team: Duo\n\n"
+                          "June 26 2022",
+                      fontSize: 20),
                   const SizedBox(
                     height: 40,
                   ),
@@ -139,7 +152,7 @@ class _tab2job extends State<tab2job> {
       ///Smaller Screen
       return SingleChildScrollView(
           child: SizedBox(
-              height: 2500,
+              height: 3000,
               child: Scaffold(
                   body: Center(
                       child: Column(
@@ -198,6 +211,22 @@ class _tab2job extends State<tab2job> {
                       color: Colors.white,
                       thickness: 2,
                     ),
+                  ),
+                  const SizedBox(
+                    height: 40,
+                  ),
+                  coolText(text: "STEMist", fontSize: 20),
+                  const SizedBox(
+                    height: 20,
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(20),
+                    child: coolText(
+                        text: "9/150th\n\n "
+                            "Tech used: Flutter/Firebase/Learning Ai\n\n"
+                            "Team: Duo\n\n"
+                            "June 26 2022",
+                        fontSize: 10),
                   ),
                   const SizedBox(
                     height: 40,
