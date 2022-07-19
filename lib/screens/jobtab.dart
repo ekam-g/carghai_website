@@ -143,6 +143,40 @@ class _tab2job extends State<tab2job> {
             const SizedBox(
               height: 100,
             ),
+            const SizedBox(height: 100),
+            coolText(text: "Volunteering", fontSize: 60),
+            const SizedBox(
+              width: 500,
+              child: Divider(
+                color: Colors.white,
+                thickness: 2,
+              ),
+            ),
+            const SizedBox(
+              height: 40,
+            ),
+            coolText(text: "Rock-brook School", fontSize: 40),
+            const SizedBox(
+              height: 20,
+            ),
+            coolText(text: "Teacher\n\n"
+                "Full Disclosure: I taught special kids how to block code\n\n"
+                "Later I even taught them basic python\n\n"
+                "2021/2022", fontSize: 20),
+            const SizedBox(
+              height: 40,
+            ),
+            coolText(text: "Fire Department", fontSize: 40),
+            const SizedBox(
+              height: 20,
+            ),
+            coolText(text: "Mechanic/Exterior FireFighter\n\n"
+                "Full Disclosure: I worked on trucks and made sure they where in working condition!\n\n"
+                "I also managed traffic and monitor trucks and equipment during fires\n\n"
+                "2015/Now", fontSize: 20),
+            const SizedBox(
+              height: 100,
+            ),
             coolText(text: "Skills", fontSize: 60),
             const SizedBox(
               width: 500,
@@ -318,6 +352,40 @@ class _tab2job extends State<tab2job> {
             const SizedBox(
               height: 100,
             ),
+            const SizedBox(height: 100),
+            coolText(text: "Volunteering", fontSize: 30),
+            const SizedBox(
+              width: 500,
+              child: Divider(
+                color: Colors.white,
+                thickness: 2,
+              ),
+            ),
+            const SizedBox(
+              height: 40,
+            ),
+            coolText(text: "Rock-brook School", fontSize: 20),
+            const SizedBox(
+              height: 20,
+            ),
+            coolText(text: "Teacher\n\n"
+                "Full Disclosure: I taught special kids how to block code\n\n"
+                "Later I even taught them basic python\n\n"
+                "2021/2022", fontSize: 10),
+            const SizedBox(
+              height: 40,
+            ),
+            coolText(text: "Fire Department", fontSize: 20),
+            const SizedBox(
+              height: 20,
+            ),
+            coolText(text: "Mechanic/Exterior FireFighter\n\n"
+                "Full Disclosure: I worked on trucks and made sure they where in working condition!\n\n"
+                "I also managed traffic and monitor trucks and equipment during fires\n\n"
+                "2015/Now", fontSize: 10),
+            const SizedBox(
+              height: 100,
+            ),
             coolText(text: "Skills", fontSize: 30),
             const Padding(
               padding: EdgeInsets.all(20),
@@ -347,7 +415,6 @@ class _tab2job extends State<tab2job> {
               height: 100,
             ),
             coolText(text: "June 28 2022", fontSize: 15),
-
             const SizedBox(
               height: 50,
             ),
