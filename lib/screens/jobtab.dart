@@ -85,6 +85,20 @@ class _tab2job extends State<tab2job> {
               ),
             ),
             const SizedBox(
+              height: 60,
+            ),
+            coolText(text: "Bayview Hackathon", fontSize: 40),
+            const SizedBox(
+              height: 20,
+            ),
+            coolText(
+                text: "Winner\n\n "
+                    "Tech used: Flutter/Firebase/Open CV/ML\n\n"
+                    "Team: Solo\n\n"
+                    "130 people\n\n"
+                    "Jul 24-25 2022",
+                fontSize: 20),
+            const SizedBox(
               height: 40,
             ),
             coolText(text: "Tech Optimum", fontSize: 40),
@@ -159,10 +173,12 @@ class _tab2job extends State<tab2job> {
             const SizedBox(
               height: 20,
             ),
-            coolText(text: "Teacher\n\n"
-                "Full Disclosure: I taught special kids how to block code\n\n"
-                "Later I even taught them basic python\n\n"
-                "2021/2022", fontSize: 20),
+            coolText(
+                text: "Teacher\n\n"
+                    "Full Disclosure: I taught special kids how to block code\n\n"
+                    "Later I even taught them basic python\n\n"
+                    "2021/2022",
+                fontSize: 20),
             const SizedBox(
               height: 40,
             ),
@@ -170,10 +186,12 @@ class _tab2job extends State<tab2job> {
             const SizedBox(
               height: 20,
             ),
-            coolText(text: "Mechanic/Exterior FireFighter\n\n"
-                "Full Disclosure: I worked on trucks and made sure they where in working condition!\n\n"
-                "I also managed traffic and monitor trucks and equipment during fires\n\n"
-                "2015/Now", fontSize: 20),
+            coolText(
+                text: "Mechanic/Exterior FireFighter\n\n"
+                    "Full Disclosure: I worked on trucks and made sure they where in working condition!\n\n"
+                    "I also managed traffic and monitor trucks and equipment during fires\n\n"
+                    "2015/Now",
+                fontSize: 20),
             const SizedBox(
               height: 100,
             ),
@@ -289,6 +307,20 @@ class _tab2job extends State<tab2job> {
             const SizedBox(
               height: 40,
             ),
+            coolText(text: "Bayview Hackathon", fontSize: 20),
+            const SizedBox(
+              height: 20,
+            ),
+            coolText(
+                text: "Winner\n\n "
+                    "Tech used: Flutter/Firebase/Open CV/ML\n\n"
+                    "Team: Solo\n\n"
+                    "130 people\n\n"
+                    "Jul 24-25 2022",
+                fontSize: 10),
+            const SizedBox(
+              height: 40,
+            ),
             coolText(
               text: "Tech Optimum",
               fontSize: 20,
@@ -368,10 +400,12 @@ class _tab2job extends State<tab2job> {
             const SizedBox(
               height: 20,
             ),
-            coolText(text: "Teacher\n\n"
-                "Full Disclosure: I taught special kids how to block code\n\n"
-                "Later I even taught them basic python\n\n"
-                "2021/2022", fontSize: 10),
+            coolText(
+                text: "Teacher\n\n"
+                    "Full Disclosure: I taught special kids how to block code\n\n"
+                    "Later I even taught them basic python\n\n"
+                    "2021/2022",
+                fontSize: 10),
             const SizedBox(
               height: 40,
             ),
@@ -379,10 +413,12 @@ class _tab2job extends State<tab2job> {
             const SizedBox(
               height: 20,
             ),
-            coolText(text: "Mechanic/Exterior FireFighter\n\n"
-                "Full Disclosure: I worked on trucks and made sure they where in working condition!\n\n"
-                "I also managed traffic and monitor trucks and equipment during fires\n\n"
-                "2015/Now", fontSize: 10),
+            coolText(
+                text: "Mechanic/Exterior FireFighter\n\n"
+                    "Full Disclosure: I worked on trucks and made sure they where in working condition!\n\n"
+                    "I also managed traffic and monitor trucks and equipment during fires\n\n"
+                    "2015/Now",
+                fontSize: 10),
             const SizedBox(
               height: 100,
             ),
