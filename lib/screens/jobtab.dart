@@ -223,7 +223,7 @@ class _tab2job extends State<tab2job> {
             const SizedBox(
               height: 100,
             ),
-            coolText(text: "June 28 2022", fontSize: 15),
+            coolText(text: "Last Updated: July 26 2022", fontSize: 15),
             const SizedBox(
               height: 100,
             ),
@@ -450,7 +450,7 @@ class _tab2job extends State<tab2job> {
             const SizedBox(
               height: 100,
             ),
-            coolText(text: "June 28 2022", fontSize: 15),
+            coolText(text: "Last Updated: July 26 2022", fontSize: 15),
             const SizedBox(
               height: 50,
             ),
